@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 public class Product implements Serializable {
     private static final long serialVersionUID = 1L;
+
     private int productId;
     private String productName;
     private String productDes;
@@ -24,7 +25,7 @@ public class Product implements Serializable {
         this.category = category;
     }
 
-    public Product(String name, String des, double price, double price1, String category) {
+    public Product(int newId, String productName, String productName1, double productPrice, int quantity) {
     }
 
     public int getProductId() {

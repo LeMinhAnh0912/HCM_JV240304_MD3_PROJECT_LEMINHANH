@@ -13,4 +13,5 @@ public class InputUtil {
     public static boolean getBoolean(String s) {
         return false;
     }
+    
 }

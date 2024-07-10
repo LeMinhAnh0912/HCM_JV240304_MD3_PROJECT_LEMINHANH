@@ -19,7 +19,9 @@ public class Order {
         this.products = products;
         this.totalAmount = totalAmount;
     }
-    public Order() {}
+
+    public Order() {
+    }
 
     public String getOrderId() {
         return orderId;
@@ -67,5 +69,8 @@ public class Order {
 
     public boolean isStatus() {
         return status;
+    }
+
+    public void addProduct(Product product) {
     }
 }

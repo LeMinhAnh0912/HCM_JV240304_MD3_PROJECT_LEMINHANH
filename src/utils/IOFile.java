@@ -14,7 +14,7 @@ public class IOFile<T> {
 
     public List<T> readFromFile(String filePath) throws IOException, ClassNotFoundException {
         File file = new File(filePath);
-        if (!file.exists() || file.length() == 0) {
+        if (file.length() == 0) {
             return new ArrayList<>();
         }
         List<T> objects;

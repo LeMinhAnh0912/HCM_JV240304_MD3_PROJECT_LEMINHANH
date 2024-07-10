@@ -13,7 +13,7 @@ public class UserService implements CRUD<User> {
 
     @Override
     public void create(User user) {
-        users.put(user.getId(), user);
+        users.put(String.valueOf(user.getId()), user);
     }
 
     @Override
@@ -23,7 +23,7 @@ public class UserService implements CRUD<User> {
 
     @Override
     public void update(User user) {
-        users.put(user.getId(), user);
+        users.put(String.valueOf(user.getId()), user);
     }
 
     @Override
