@@ -1,5 +1,4 @@
 package utils;
-
 import java.util.Scanner;
 
 public class InputUtil {
@@ -13,5 +12,4 @@ public class InputUtil {
     public static boolean getBoolean(String s) {
         return false;
     }
-    
 }
